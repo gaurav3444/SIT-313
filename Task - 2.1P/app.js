@@ -28,17 +28,15 @@ app.post('/subscribe', async (req, res) => {
         port: 465,
         secure: true,
         auth: {
-            user: "3444gauravsharma@gmail.com",
-            pass: "uaxufcyhukspggxj", // Use environment variables for security in production
-            // user: EMAIL_USER,
-            // pass: EMAIL_PASS,
+            user: EMAIL_USER,
+            pass: EMAIL_PASS,
         },
     });
 
     // Send email
     try {
         let info = await transporter.sendMail({
-            from: '"DEV@Deakin" <3444gauravsharma@gmail.com>',
+            from: '"DEV@Deakin" <EMAIL_USER>',
             to: email,
             subject: "Subscription Confirmation",
             html: `
