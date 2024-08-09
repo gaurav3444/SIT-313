@@ -1,0 +1,47 @@
+/* Styling for the search bar container */
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #f0f0f0;
+  }
+
+  /* Styling for the form name section */
+  .form_name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Styling for the search box within the search bar */
+  .form_search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the search input field */
+  .search {
+    border: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    outline: none;
+  }
+  
+  /* Styling for the icon inside the search box */
+  .icon {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Styling for buttons */
+  .button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  } 
+  

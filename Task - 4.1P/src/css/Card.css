@@ -1,0 +1,70 @@
+/* Container for rows, using flexbox layout to distribute child elements evenly */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Container for individual columns with flexible width, margin, padding, and styling */
+.column {
+  flex: 0 1 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styling for images within the card, ensuring full width and maintaining aspect ratio */
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the description text */
+.description {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Flexbox layout for the rating section, centering items */
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Styling for the author name next to the rating */
+.author_name {
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+/* Centering the button container within its parent */
+.button-container {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+/* Styling for the 'See More' button */
+.see-more-button {
+  background-color: #bcbcbc; 
+  color: black;
+  padding: 10px 30px; 
+  font-size: 18px; 
+  font-weight: bold; 
+  border: 1px solid #999;
+  border-radius: 25px; 
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease; 
+}
+
+/* Hover effect for the 'See More' button */
+.see-more-button:hover {
+  background-color: #a1a1a1; 
+}
+

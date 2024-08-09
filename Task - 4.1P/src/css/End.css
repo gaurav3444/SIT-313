@@ -1,0 +1,54 @@
+/* Footer section styling */
+.footer {
+  background-color: #1bb18e;
+  color: #fff;
+}
+
+/* Styling for the form section inside the footer */
+.end_form {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 100px;
+}
+
+/* Individual form item styling */
+.end_form_item {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Styling for the headings within form items */
+.end_form_item h1 {
+  margin-bottom: 15px;
+}
+
+/* Styling for the paragraphs within form items */
+.end_form_item p {
+  margin: 8px 0;
+}
+
+/* Styling for form icons, arranging them in a row with a gap */
+.form_icon {
+  display: flex;
+  gap: 10px;
+}
+
+/* Secondary form section with semi-transparent background */
+.end_form_2 {
+  background-color: rgba(36, 53, 51, 0.347);
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Third form section with spaced items */
+.end_form_3 {
+  display: flex;
+  gap: 30px;
+}
+
+/* Centered text within the Deakin section */
+.deakin {
+  text-align: center;
+}
